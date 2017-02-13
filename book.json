@@ -1,3 +1,9 @@
 {
-  "title": "SwiggyApp"
+  "plugins": ["ga"],
+  "title": "SwiggyApp",
+  "pluginsConfig": {
+        "ga": {
+            "token": "UA-91842571-1"
+        }
+    }
 }
