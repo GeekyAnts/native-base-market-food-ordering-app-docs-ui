@@ -11,8 +11,8 @@ npm install -g gitstrap-cli
   ```
   The above line of command functions as listed below:
   * ``` my-repo ``` should be an existing repository.
-  * Clones [Swiggy App]() (upstream) on user local system with same git-branch as that of upstream, say ``` master ```.
-  * Sets the upstream ([Swiggy App]()) and origin (my-repo) on user local system respectively.
+  * Clones [Swiggy App](http://market.nativebase.io/view/react-native-swiggy-app-theme) (upstream) on user local system with same git-branch as that of upstream, say ``` master ```.
+  * Sets the upstream ([Swiggy App](http://market.nativebase.io/view/react-native-swiggy-app-theme)) and origin (my-repo) on user local system respectively.
   * Push to user remote repo.
   * ``` folder-name ``` is optional argument of gitstrap init command.
     * Without _folder-name_ : Clones the theme into your current location of directory.
@@ -29,7 +29,7 @@ npm install -g gitstrap-cli
   * ```upstream-branch``` is optional argument of _gitstrap sync_ command.
   This lets you choose between your git-branch for sync.
   _Example:_
-  * If you want to sync [Swiggy App]()'s ```master``` with your repo's ```development```, include ```upstream-branch``` with gitstrap sync command.
+  * If you want to sync [Swiggy App](http://market.nativebase.io/view/react-native-swiggy-app-theme)'s ```master``` with your repo's ```development```, include ```upstream-branch``` with gitstrap sync command.
   * ```git checkout development```
 
   ```gitstrap sync master```
