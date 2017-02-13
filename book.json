@@ -1,7 +1,28 @@
 {
-  "plugins": ["ga"],
-  "title": "SwiggyApp",
-  "pluginsConfig": {
+    "plugins": [
+        "ga",
+        "versions"
+    ],
+    "title": "SwiggyApp",
+    "pluginsConfig": {
+        "versions": {
+            "gitbookConfigURL": "http://rawgit.com/GeekyAnts/SwiggyApp-docs/master/book.json",
+            "options": [
+                {
+                    "value": "http://rawgit.com/GeekyAnts/SwiggyApp-docs/development/_book/index.html",
+                    "text": "development"
+                },
+                {
+                    "value": "http://docs.market.nativebase.io/SwiggyApp/",
+                    "text": "latest"
+                },
+                {
+                    "value": "http://docs.market.nativebase.io/SwiggyApp/",
+                    "text": "-- select version --",
+                    "selected": false
+                }
+            ]
+        },
         "ga": {
             "token": "UA-91842571-1"
         }
