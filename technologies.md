@@ -1,6 +1,6 @@
 ## Technologies Used
 
-The components of [React Native Swiggy App](http://market.nativebase.io/view/react-native-swiggy-app-theme) are built using the core components of [React Native](https://github.com/facebook/react-native) and [NativeBase](http://nativebase.io/).
+The components of [React Native Food Ordering App](http://market.nativebase.io/view/react-native-swiggy-app-theme) are built using the core components of [React Native](https://github.com/facebook/react-native) and [NativeBase](http://nativebase.io/).
 The theme also constantly incorporates various other latest technologies.
 
 * React Native
