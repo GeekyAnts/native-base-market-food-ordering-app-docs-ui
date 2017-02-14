@@ -1,6 +1,6 @@
 # Theming Your App
 
-Customizing [Food Ordering App](http://market.nativebase.io/view/react-native-swiggy-app-theme) will be a cakewalk for you. That is due to the fact, we provide you well prepared code shape. This makes it quite simple to be able to dig through the code and hence without problems customizable.
+Customizing [Food Ordering App](http://market.nativebase.io/view/react-native-food-ordering-app) will be a cakewalk for you. That is due to the fact, we provide you well prepared code shape. This makes it quite simple to be able to dig through the code and hence without problems customizable.
 
 * The theme has categorized its screens into different sections.
 * The theme has a separate file inclusive of color schemes for different sections.
@@ -10,12 +10,12 @@ Customizing [Food Ordering App](http://market.nativebase.io/view/react-native-sw
 
 # Change Components Color
 
-To customize any component of [React Native Food Ordering App](http://market.nativebase.io/view/react-native-swiggy-app-theme) is very easy now.
+To customize any component of [React Native Food Ordering App](http://market.nativebase.io/view/react-native-food-ordering-app) is very easy now.
 Follow the [NativeBase ](http://nativebase.io/docs/v2.0.0/customize#) procedure to do so.
 
 # Change App Icon
 
-Want to have your own icon for your app? This is very simple with [Food Ordering App](http://market.nativebase.io/view/react-native-swiggy-app-theme).
+Want to have your own icon for your app? This is very simple with [Food Ordering App](http://market.nativebase.io/view/react-native-food-ordering-app).
 Follow below given steps to customize app-icon for your app.
 
 * Visit [MakeAppIcon](https://makeappicon.com/) website
@@ -37,7 +37,7 @@ Follow below given steps to customize app-icon for your app.
 
 # Rename App
 
-Renaming any [React Native](https://github.com/facebook/react-native) app is strenous. But [Food Ordering App](http://market.nativebase.io/view/react-native-swiggy-app-theme) proves its flexibility for this approach.
+Renaming any [React Native](https://github.com/facebook/react-native) app is strenous. But [Food Ordering App](http://market.nativebase.io/view/react-native-food-ordering-app) proves its flexibility for this approach.
 Follow below given steps to rename your app.
 
 * Rename the app name in following files.

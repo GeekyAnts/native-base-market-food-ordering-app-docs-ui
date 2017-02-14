@@ -1,6 +1,6 @@
 # Start Building Your App
 
-[Food Ordering App](http://market.nativebase.io/view/react-native-swiggy-app-theme) guides you throughout building your app, providing the steps and procedure to customize.
+[Food Ordering App](http://market.nativebase.io/view/react-native-food-ordering-app) guides you throughout building your app, providing the steps and procedure to customize.
 
 
 **Contents discussed in this section:**
