@@ -1,0 +1,6 @@
+<center> <img style="width: 50%; height: 50%" src ="./assets/app-icon-original.png"> </center>
+# React Native Food Ordering App
+
+Based on [React Native](https://github.com/facebook/react-native) and [NativeBase](http://nativebase.io/), we offer you [React Native Food Ordering App](http://market.nativebase.io/view/react-native-food-ordering-app); a well structured, responsive for iOS and Android, having fully customizable pages along-with a rich collection of UI elements specifically for an ideal Food Ordering App to help you quickly get started on your next project.
+
+[React Native Food Ordering App](http://market.nativebase.io/view/react-native-food-ordering-app) is a bold and flexible [React Native](https://github.com/facebook/react-native) theme best suited for developing high-quality Food Ordering Apps that makes use of ready-made tools. The theme has several widget areas that allows you to extend your theme functionality with plugins. [React Native Food Ordering App](http://market.nativebase.io/view/react-native-food-ordering-app) is built using Redux and is performance optimized which helps you to develop world-class application experiences on native platforms. This gives your app a consistent look and feel with the rest of the platform ecosystem, and keeps the quality bar high.
