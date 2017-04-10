@@ -136,20 +136,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="../react-native-food-ordering-app-theme/exponent.html">
-            
-                <a href="../react-native-food-ordering-app-theme/exponent.html">
-            
-                    
-                    Exponent
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5" data-path="guide.html">
+        <li class="chapter " data-level="1.4" data-path="guide.html">
             
                 <a href="guide.html">
             
@@ -163,7 +150,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="guide/customize.html">
+        <li class="chapter " data-level="1.4.1" data-path="guide/customize.html">
             
                 <a href="guide/customize.html">
             
@@ -181,7 +168,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../react-native-food-ordering-app-theme/packages.html">
+        <li class="chapter " data-level="1.5" data-path="../react-native-food-ordering-app-theme/packages.html">
             
                 <a href="../react-native-food-ordering-app-theme/packages.html">
             
@@ -194,7 +181,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../react-native-food-ordering-app-theme/release-notes.html">
+        <li class="chapter " data-level="1.6" data-path="../react-native-food-ordering-app-theme/release-notes.html">
             
                 <a href="../react-native-food-ordering-app-theme/release-notes.html">
             
@@ -207,7 +194,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.8" data-path="faqs.html">
+        <li class="chapter active" data-level="1.7" data-path="faqs.html">
             
                 <a href="faqs.html">
             
@@ -220,7 +207,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="license.html">
+        <li class="chapter " data-level="1.8" data-path="license.html">
             
                 <a href="license.html">
             
@@ -280,9 +267,6 @@
                                 
                                 <h1 id="faqs">FAQs</h1>
 <ul>
-<li><a href="#watchman-error">Watchman Error</a></li>
-<li><a href="#unrecognized-font">Unrecognized font family ionicons</a></li>
-<li><a href="#icons-peer-installation-failed">react-native-vector-icons peer installation failed</a></li>
 <li><a href="#override-style">How to override style in NativeBase?</a></li>
 <li><a href="#add-events">How do I add events with the components?</a></li>
 <li><a href="#none">None of the above, I have a different error</a></li>
@@ -290,77 +274,6 @@
 <li><a href="#list-icons">I want list of icons with their names used in NativeBase</a></li>
 </ul>
 <p><br></p>
-<p><a id="watchman-error"></a></p>
-<h4 id="i-am-getting-a-watchman-error-when-i-run-npm-install">I am getting a watchman error when I run npm install.</h4>
-<p><b>Solution:</b></p>
-<ul>
-  <li> Update <code>watchman</code> to the latest version. </li>
-  <li> Run <code>npm</code> install again. </li>
-</ul>
-
-<p><br></p>
-<p><hr>
-<br></p>
-<p><a id="unrecognized-font"></a></p>
-<h4 id="unrecognized-font-family-fontawesomeicons">Unrecognized font family fontAwesomeIcons</h4>
-<div class="panel-body">
-    When I run it in Xcode I&apos;m getting a &quot;Build Failed&quot; error, with message:
-    <ul>
-        <li>
-            ld: library not found for -lRNVectorIcons
-        </li>
-        <li>
-            clang: error: linker command failed with exit code 1 (use -v to see invocation)
-        </li>
-    </ul>
-</div>
-<div class="panel-footer">
-    <b>Solution:</b> <br>
-    Linking the Vector Icons repo in Xcode will solve the issue.<br>
-    More information about how to link libraries to your app.
-    <font size="1">
-        <a href="http://facebook.github.io/react-native/docs/linking-libraries-ios.html#content" target="_blank">
-            Click here
-        </a>
-    </font><br>
-    If you still face the same issue, then restart packager and run from xcode.
-</div>
-
-<p><br></p>
-<p><hr>
-<br></p>
-<p><a id="icons-peer-installation-failed"></a></p>
-<h4 id="react-native-vector-icons-peer-installation-failed">react-native-vector-icons peer installation failed</h4>
-<div class="panel-body">
-    The react-native-vector-icons is always not installed.<br>
-    I follow up the installation instruction by using <code>rnpm link</code>.<br>
-    But this doesn&apos;t seem to link the package correctly.
-</div>
-<div class="panel-footer">
-    <b>Probabilities:</b><br>
-    <ol>
-        <li>This might be the problem if your rootProject name is not correct at all places.</li>
-        <li><b>rnpm link</b> might not work all the time.</li>
-        <ul>
-            <li>In case of android</li>
-            <li>If React Native version in your app &gt;= 0.29</li>
-        </ul>
-    </ol><br>
-
-    <div style="padding-bottom: 20px;">
-        <b>Solution 1:</b> <br>
-        Check your rootProject name in react-native-vector-icons&apos;s <b><i>font.gradle</i></b>, in case if its hard coded there. This causes failure in linking because the rootProject name may not be same with the definition in <b><i>settings.gradle</i></b>.
-    </div>
-    <b>Solution 2:</b>
-    Please complete the installation procedure for <b>react-native-vector-icons</b> by taking up the
-    <a href="">
-        manual setup
-    </a> mentioned in the docs.
-</div>
-
-<p><br></p>
-<p><hr>
-<br></p>
 <p><a id="override-style"></a></p>
 <h4 id="how-to-override-style-in-nativebase">How to override style in NativeBase?</h4>
 <div id="faq-5" class="panel-collapse collapse">
@@ -434,7 +347,7 @@
     <div class="panel-footer">
         <b> Solution: </b><br>
         <a href="http://nativebase.io/" target="_blank">NativeBase</a> provides a separate file inclusive of color schemes for all components.<br>
-        Go through <a href="http://nativebase.io/docs/v2.0.0/customize#" target="_blank">Customize</a> section of docs.
+        Go through <a href="http://docs.nativebase.io/CUSTOMIZE.html#Customize" target="_blank">Customize</a> section of docs.
     </div>
 </div>
 
@@ -451,7 +364,7 @@
     <br>
     <div class="panel-footer">
         <b> Solution: </b><br>
-        NativeBase use Icons from <a href="https://github.com/oblador/react-native-vector-icons" target="_blank">React Native Vector Icons</a>.<br>
+        NativeBase use Icons from <a href="https://expo.github.io/vector-icons/" target="_blank">React Native Vector Icons</a>.<br>
         Hence the collection of icons from Vector Icons holds good with that in NativeBase.
     </div>
 </div>
@@ -499,7 +412,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"FAQs","level":"1.8","depth":1,"next":{"title":"License","level":"1.9","depth":1,"path":"docs/common/license.md","ref":"./docs/common/license.md","articles":[]},"previous":{"title":"Release Notes","level":"1.7","depth":1,"path":"docs/react-native-food-ordering-app-theme/release-notes.md","ref":"./docs/react-native-food-ordering-app-theme/release-notes.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","versions","scripts","include-codeblock","ace","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"ace":{},"livereload":{},"scripts":{"files":["./engine.js"]},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-91837749-1"},"versions":{"type":"branches","gitbookConfigURL":"http://rawgit.com/GeekyAnts/native-base-market-food-ordering-app-docs-ui/master/book.json","options":[{"value":"http://docs.market.nativebase.io/react-native-food-ordering-app-ui","text":"v1.0.0"}]},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"options":"react-native-flat-app-theme"},"title":"NativeBase Market UI Themes","gitbook":"*"},"file":{"path":"docs/common/faqs.md","mtime":"2017-04-05T14:21:24.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-06T14:00:33.808Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"FAQs","level":"1.7","depth":1,"next":{"title":"License","level":"1.8","depth":1,"path":"docs/common/license.md","ref":"./docs/common/license.md","articles":[]},"previous":{"title":"Release Notes","level":"1.6","depth":1,"path":"docs/react-native-food-ordering-app-theme/release-notes.md","ref":"./docs/react-native-food-ordering-app-theme/release-notes.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","versions","scripts","include-codeblock","ace","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"ace":{},"livereload":{},"scripts":{"files":["./engine.js"]},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-91837749-1"},"versions":{"type":"branches","gitbookConfigURL":"http://rawgit.com/GeekyAnts/native-base-market-food-ordering-app-docs-ui/master/book.json","options":[{"value":"http://docs.market.nativebase.io/react-native-food-ordering-app-ui","text":"v1.0.0"}]},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"options":"react-native-flat-app-theme"},"title":"NativeBase Market UI Themes","gitbook":"*"},"file":{"path":"docs/common/faqs.md","mtime":"2017-04-05T14:21:24.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-10T07:56:41.598Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

@@ -3,7 +3,6 @@
 * [Introduction](README.md)
 * [Technologies](./docs/common/technologies.md)
 * [Installation](./docs/common/installation.md)
-* [Exponent](./docs/react-native-food-ordering-app-theme/exponent.md)
 * [Guide](./docs/common/guide.md)
   * [Customize](./docs/common/guide/customize.md)
 * [Packages](./docs/react-native-food-ordering-app-theme/packages.md)

@@ -65,7 +65,7 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../react-native-food-ordering-app-theme/exponent.html" />
+    <link rel="next" href="guide.html" />
     
     
     <link rel="prev" href="technologies.html" />
@@ -136,20 +136,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="../react-native-food-ordering-app-theme/exponent.html">
-            
-                <a href="../react-native-food-ordering-app-theme/exponent.html">
-            
-                    
-                    Exponent
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5" data-path="guide.html">
+        <li class="chapter " data-level="1.4" data-path="guide.html">
             
                 <a href="guide.html">
             
@@ -163,7 +150,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="guide/customize.html">
+        <li class="chapter " data-level="1.4.1" data-path="guide/customize.html">
             
                 <a href="guide/customize.html">
             
@@ -181,7 +168,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../react-native-food-ordering-app-theme/packages.html">
+        <li class="chapter " data-level="1.5" data-path="../react-native-food-ordering-app-theme/packages.html">
             
                 <a href="../react-native-food-ordering-app-theme/packages.html">
             
@@ -194,7 +181,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../react-native-food-ordering-app-theme/release-notes.html">
+        <li class="chapter " data-level="1.6" data-path="../react-native-food-ordering-app-theme/release-notes.html">
             
                 <a href="../react-native-food-ordering-app-theme/release-notes.html">
             
@@ -207,7 +194,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="faqs.html">
+        <li class="chapter " data-level="1.7" data-path="faqs.html">
             
                 <a href="faqs.html">
             
@@ -220,7 +207,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="license.html">
+        <li class="chapter " data-level="1.8" data-path="license.html">
             
                 <a href="license.html">
             
@@ -278,49 +265,52 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h3 id="system-requirements">System Requirements</h3>
+                                <h1 id="installation">Installation</h1>
 <ul>
-<li>Globally installed <a href="https://nodejs.org/en/" target="_blank">node</a> &gt;= 4.0</li>
-<li>Globally installed <a href="https://www.npmjs.com/" target="_blank">npm</a> &gt;= 3.0</li>
-<li>Globally installed <a href="https://facebook.github.io/react-native/docs/getting-started.html" target="_blank">react-native CLI</a></li>
+<li><p><strong>Opt #1. Download ZIP</strong></p>
+<p>  Not familiar with Git?
+  Download the Full Version of the theme.
+  Extract the contents of ZIP file after downloading.
+  Downloading ZIP file does not help you to sync with further updates of the App.</p>
+</li>
 </ul>
-<h3 id="full-version">Full Version</h3>
-<p>Run the following commands on your terminal to setup the App on your system.</p>
-<h3 id="installation">Installation</h3>
 <ul>
-<li><strong>Opt #1. Download ZIP</strong></li>
-</ul>
-<p>Not familiar with Git?
-Download the Full Version of the theme.
-Extract the contents of ZIP file after downloading.
-Downloading ZIP file does not help you to sync with further updates of the App.</p>
-<ul>
-<li><strong>Opt #2. Clone using GitStrap Web Client</strong></li>
-</ul>
-<p>To setup the Full Version for the App on your system, with <strong>gitstrap</strong> tools to sync your app with constant updates, clone the repo.</p>
-<ul>
+<li><p><strong>Opt #2. Clone using GitStrap Web Client</strong></p>
+<p>  To setup the Full Version for the App on your system, with <strong>gitstrap</strong> tools to sync your app with constant updates, clone the repo.</p>
+</li>
 <li><p>Install packages for Full Version</p>
 <pre><code>cd App
 npm install
-react-native link
+or
+yarn
 </code></pre></li>
 <li><p>To simulate for iOS</p>
 <ul>
 <li><strong>Method One:</strong><ul>
-<li>Open the project in XCode from <code>ios/App.xcodeproj</code>.</li>
-<li>Hit Build button to simulate.</li>
+<li>Run <code>npm start</code> in your terminal.</li>
+<li>Scan the QR code in your Expo App.</li>
 </ul>
 </li>
 <li><strong>Method Two:</strong><ul>
-<li>Type <code>react-native run-ios</code> in your terminal.</li>
+<li>Type <code>npm run ios</code> in your terminal.</li>
 </ul>
 </li>
 </ul>
 </li>
+</ul>
+<ul>
 <li><p>To simulate for Android</p>
 <ul>
+<li><strong>Method One:</strong><ul>
+<li>Run <code>npm start</code> in your terminal.</li>
+<li>Scan the QR code in your Expo App.</li>
+</ul>
+</li>
+<li><strong>Method Two:</strong><ul>
 <li>Make sure you have an <code>Android emulator</code> installed and running.</li>
-<li>Type <code>react-native run-android</code> in your terminal.</li>
+<li>Type <code>npm run android</code> in your terminal.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -356,7 +346,7 @@ react-native link
                 </a>
                 
                 
-                <a href="../react-native-food-ordering-app-theme/exponent.html" class="navigation navigation-next " aria-label="Next page: Exponent">
+                <a href="guide.html" class="navigation navigation-next " aria-label="Next page: Guide">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -367,7 +357,7 @@ react-native link
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Installation","level":"1.3","depth":1,"next":{"title":"Exponent","level":"1.4","depth":1,"path":"docs/react-native-food-ordering-app-theme/exponent.md","ref":"./docs/react-native-food-ordering-app-theme/exponent.md","articles":[]},"previous":{"title":"Technologies","level":"1.2","depth":1,"path":"docs/common/technologies.md","ref":"./docs/common/technologies.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","versions","scripts","include-codeblock","ace","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"ace":{},"livereload":{},"scripts":{"files":["./engine.js"]},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-91837749-1"},"versions":{"type":"branches","gitbookConfigURL":"http://rawgit.com/GeekyAnts/native-base-market-food-ordering-app-docs-ui/master/book.json","options":[{"value":"http://docs.market.nativebase.io/react-native-food-ordering-app-ui","text":"v1.0.0"}]},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"options":"react-native-flat-app-theme"},"title":"NativeBase Market UI Themes","gitbook":"*"},"file":{"path":"docs/common/installation.md","mtime":"2017-04-05T14:21:04.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-06T14:00:33.808Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Installation","level":"1.3","depth":1,"next":{"title":"Guide","level":"1.4","depth":1,"path":"docs/common/guide.md","ref":"./docs/common/guide.md","articles":[{"title":"Customize","level":"1.4.1","depth":2,"path":"docs/common/guide/customize.md","ref":"./docs/common/guide/customize.md","articles":[]}]},"previous":{"title":"Technologies","level":"1.2","depth":1,"path":"docs/common/technologies.md","ref":"./docs/common/technologies.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","versions","scripts","include-codeblock","ace","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"ace":{},"livereload":{},"scripts":{"files":["./engine.js"]},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-91837749-1"},"versions":{"type":"branches","gitbookConfigURL":"http://rawgit.com/GeekyAnts/native-base-market-food-ordering-app-docs-ui/master/book.json","options":[{"value":"http://docs.market.nativebase.io/react-native-food-ordering-app-ui","text":"v1.0.0"}]},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"options":"react-native-flat-app-theme"},"title":"NativeBase Market UI Themes","gitbook":"*"},"file":{"path":"docs/common/installation.md","mtime":"2017-04-05T14:21:04.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-10T07:56:41.598Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

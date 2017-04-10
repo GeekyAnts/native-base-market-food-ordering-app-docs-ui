@@ -136,20 +136,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="../../react-native-food-ordering-app-theme/exponent.html">
-            
-                <a href="../../react-native-food-ordering-app-theme/exponent.html">
-            
-                    
-                    Exponent
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5" data-path="../guide.html">
+        <li class="chapter " data-level="1.4" data-path="../guide.html">
             
                 <a href="../guide.html">
             
@@ -163,7 +150,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.5.1" data-path="customize.html">
+        <li class="chapter active" data-level="1.4.1" data-path="customize.html">
             
                 <a href="customize.html">
             
@@ -181,7 +168,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../../react-native-food-ordering-app-theme/packages.html">
+        <li class="chapter " data-level="1.5" data-path="../../react-native-food-ordering-app-theme/packages.html">
             
                 <a href="../../react-native-food-ordering-app-theme/packages.html">
             
@@ -194,7 +181,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../../react-native-food-ordering-app-theme/release-notes.html">
+        <li class="chapter " data-level="1.6" data-path="../../react-native-food-ordering-app-theme/release-notes.html">
             
                 <a href="../../react-native-food-ordering-app-theme/release-notes.html">
             
@@ -207,7 +194,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="../faqs.html">
+        <li class="chapter " data-level="1.7" data-path="../faqs.html">
             
                 <a href="../faqs.html">
             
@@ -220,7 +207,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="../license.html">
+        <li class="chapter " data-level="1.8" data-path="../license.html">
             
                 <a href="../license.html">
             
@@ -286,58 +273,18 @@
 <li>The theme strictly follows programming ethics, hence modifying logo at different locations for your app becomes very simple.</li>
 <li>The theme also allows you to customize name for your app.</li>
 </ul>
-<h1 id="change-components-color">Change Components Color</h1>
+<h3 id="change-components-color">Change Components Color</h3>
 <p>To customize any component of the App is very easy now.
-Follow the <a href="http://nativebase.io/docs/v2.0.0/customize#" target="_blank">NativeBase </a> procedure to do so.</p>
-<h1 id="change-app-icon">Change App Icon</h1>
-<p>Want to have your own icon for your app? This is very simple with the App.
-Follow below given steps to customize app-icon for your app.</p>
+Follow the <a href="http://docs.nativebase.io/CUSTOMIZE.html#Customize" target="_blank">NativeBase </a> procedure to do so.</p>
+<h3 id="change-app-icon">Change App Icon</h3>
+<p>With <a href="https://github.com/facebook/react-native" target="_blank">CRNA</a> Changing the app icon is much easier than the usual React Native App. You just need to give local path or remote url of an image you want to use as app icon to the <strong><a href="https://docs.expo.io/versions/v15.0.0/guides/configuration.html#icon" target="_blank">icon</a></strong> attribute in app.json.</p>
+<h3 id="rename-app">Rename App</h3>
+<p>Renaming any <a href="https://github.com/react-community/create-react-native-app" target="_blank">Create React Native App</a> is very easier.
+You just need to rename <strong><a href="https://docs.expo.io/versions/v15.0.0/guides/configuration.html#name" target="_blank">name</a></strong> attribute in package.json.</p>
+<h3 id="changing-the-url-name-for-publishing-with-expo">Changing the URL name for publishing with Expo</h3>
 <ul>
-<li>Visit <a href="https://makeappicon.com/" target="_blank">MakeAppIcon</a> website</li>
-<li>Enter the image of your choice to get logo of various dimensions</li>
-<li><p><strong>For iOS:</strong></p>
-<p>  You should upload iOS icons to /ios/App/Images.xcassets/AppIcon.appiconset/</p>
-</li>
-<li><p><strong>For Android:</strong></p>
-<ul>
-<li>You should upload Android icons along with the folders named as:<ul>
-<li>mipmap-hdpi</li>
-<li>mipmap-mdpi</li>
-<li>mipmap-xhdpi</li>
-<li>mipmap-xxhdpi</li>
+<li>To change the App name for the Expo url, you just need to rename the <strong><a href="https://docs.expo.io/versions/v15.0.0/guides/configuration.html#slug" target="_blank">slug</a></strong> attribute in app.json file.</li>
 </ul>
-</li>
-<li>Upload these folders to /android/app/src/main/res/</li>
-</ul>
-</li>
-<li>Restart packager and rebuild your app.</li>
-</ul>
-<h1 id="rename-app">Rename App</h1>
-<p>Renaming any <a href="https://github.com/facebook/react-native" target="_blank">React Native</a> app is strenous. But the App proves its flexibility for this approach.
-Follow below given steps to rename your app.</p>
-<ul>
-<li>Rename the app name in following files.<ul>
-<li>package.json</li>
-<li>index.ios.js</li>
-<li>index.android.js</li>
-</ul>
-</li>
-<li><p>This process wipes out the <strong>launchscreen</strong> <strong>and app</strong> icon from your app. Hence you can restore them before moving ahead.</p>
-<p>  <strong>iOS:</strong> Restore <code>ios/App/Images.xcassets</code><br>
-  <strong>Android:</strong> Restore <code>/android/app/src/main/res</code></p>
-</li>
-<li>Delete the <strong>iOS</strong> and <strong>android</strong> directories from your project.</li>
-<li><p>Run following commands on your terminal:</p>
-<pre><code>react-native upgrade
-react-native android
-react-native link
-</code></pre></li>
-<li><p>Overwrite all the files if it prompts.</p>
-</li>
-<li>Repeat CodePush deployment if you want to include it in your app.</li>
-<li>Try simulating now.</li>
-</ul>
-<p><em>To be updated soon . . .</em></p>
 
                                 
                                 </section>
@@ -381,7 +328,7 @@ react-native link
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Customize","level":"1.5.1","depth":2,"next":{"title":"Packages","level":"1.6","depth":1,"path":"docs/react-native-food-ordering-app-theme/packages.md","ref":"./docs/react-native-food-ordering-app-theme/packages.md","articles":[]},"previous":{"title":"Guide","level":"1.5","depth":1,"path":"docs/common/guide.md","ref":"./docs/common/guide.md","articles":[{"title":"Customize","level":"1.5.1","depth":2,"path":"docs/common/guide/customize.md","ref":"./docs/common/guide/customize.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["ga","versions","scripts","include-codeblock","ace","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"ace":{},"livereload":{},"scripts":{"files":["./engine.js"]},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-91837749-1"},"versions":{"type":"branches","gitbookConfigURL":"http://rawgit.com/GeekyAnts/native-base-market-food-ordering-app-docs-ui/master/book.json","options":[{"value":"http://docs.market.nativebase.io/react-native-food-ordering-app-ui","text":"v1.0.0"}]},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"options":"react-native-flat-app-theme"},"title":"NativeBase Market UI Themes","gitbook":"*"},"file":{"path":"docs/common/guide/customize.md","mtime":"2017-04-05T14:21:49.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-06T14:00:33.808Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Customize","level":"1.4.1","depth":2,"next":{"title":"Packages","level":"1.5","depth":1,"path":"docs/react-native-food-ordering-app-theme/packages.md","ref":"./docs/react-native-food-ordering-app-theme/packages.md","articles":[]},"previous":{"title":"Guide","level":"1.4","depth":1,"path":"docs/common/guide.md","ref":"./docs/common/guide.md","articles":[{"title":"Customize","level":"1.4.1","depth":2,"path":"docs/common/guide/customize.md","ref":"./docs/common/guide/customize.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["ga","versions","scripts","include-codeblock","ace","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"ace":{},"livereload":{},"scripts":{"files":["./engine.js"]},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-91837749-1"},"versions":{"type":"branches","gitbookConfigURL":"http://rawgit.com/GeekyAnts/native-base-market-food-ordering-app-docs-ui/master/book.json","options":[{"value":"http://docs.market.nativebase.io/react-native-food-ordering-app-ui","text":"v1.0.0"}]},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"options":"react-native-flat-app-theme"},"title":"NativeBase Market UI Themes","gitbook":"*"},"file":{"path":"docs/common/guide/customize.md","mtime":"2017-04-05T14:21:49.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-10T07:56:41.598Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
