@@ -3,21 +3,13 @@
         "ga",
         "versions"
     ],
-    "title": "SwiggyApp",
+    "title": "Food Ordering App",
     "pluginsConfig": {
         "versions": {
-            "gitbookConfigURL": "http://rawgit.com/GeekyAnts/SwiggyApp-docs/master/book.json",
+            "gitbookConfigURL": "http://rawgit.com/GeekyAnts/react-native-food-ordering-app-ui/upgrade/book.json",
             "options": [
                 {
-                    "value": "http://rawgit.com/GeekyAnts/SwiggyApp-docs/development/_book/index.html",
-                    "text": "development"
-                },
-                {
-                    "value": "http://docs.market.nativebase.io/react-native-food-ordering-app/",
-                    "text": "latest"
-                },
-                {
-                    "value": "http://docs.market.nativebase.io/react-native-food-ordering-app/",
+                    "value": "http://docs.market.nativebase.io/react-native-food-ordering-app-ui/",
                     "text": "-- select version --",
                     "selected": false
                 }
