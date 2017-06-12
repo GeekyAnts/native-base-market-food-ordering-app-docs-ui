@@ -1,11 +1,16 @@
 {
     "plugins": [
         "scripts",
+        "edit-link",
         "include-codeblock",
         "ace"
     ],
     "title": "Food Ordering App",
     "pluginsConfig": {
+      "edit-link": {
+            "base": "https://github.com/GeekyAnts/native-base-market-food-ordering-app-docs-ui/tree/master",
+            "label": "Edit This Page"
+        },
       "scripts": {
           "files": [
               "./engine.js"
